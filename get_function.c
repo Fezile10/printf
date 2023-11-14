@@ -36,3 +36,6 @@ int get_function(char conversion, va_list args)
 		count += _putchar('%');
 		count += _putchar(conversion);
 	}
+
+	return (count);
+}
