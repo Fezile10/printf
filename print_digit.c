@@ -11,7 +11,7 @@ int print_digit(va_list args)
 {
 	int decimal = 1;
 	int count = 0;
-	long int digit = va_arg(args, int);//negative 
+	long int digit = va_arg(args, int);
 	long int digitaux;
 
 	if (digit < 0)
